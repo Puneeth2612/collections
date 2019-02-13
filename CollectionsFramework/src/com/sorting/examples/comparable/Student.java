@@ -3,7 +3,7 @@ package com.sorting.examples.comparable;
 public class Student implements Comparable<Student> {
 	
 	private String name;
-	private int id;
+	int id;
 	public Student(String name, int id) {
 		super();
 		this.name = name;
