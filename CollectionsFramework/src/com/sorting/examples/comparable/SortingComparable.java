@@ -34,7 +34,13 @@ public class SortingComparable {
 		// sorted using comparable
 		Collections.sort(list);
 		// sorted Using Comparator
+		// Usage 1
 		Collections.sort(st, new SortingUsingComparator());
+
+		// Usage 2
+		System.out.println("::I have been printed directly::" + st);
+		st.sort(new SortingUsingComparator());
+
 		for (String stdnt : list) {
 			System.out.println(stdnt);
 		}
